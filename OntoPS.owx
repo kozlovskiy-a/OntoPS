@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/алексейкозловский/ontologies/2026/3/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/алексейкозловский/ontologies/2026/3/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/алексейкозловский/ontologies/2026/3/untitled-ontology-6/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Онтология мероприятий</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Активы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Вагоны"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Групповые_объекты"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Локомотивы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Мероприятие"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Наличная"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Нетяговый_подвижной_состав"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Объект_воздействия"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Объекты_СЦБ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Объекты_инфраструктуры"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Объекты_путевой_инфраструктуры"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Объекты_тягового_электроснабжения"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Перегон"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Планируемая"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Подвижной_состав"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Полигон"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Потребная"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Пропускная_способность"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Путевая_инфраструктура_перегона"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Раздельные_пункты"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Расчетная"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Результирующая"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Реконструктивное"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ресурсное"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ССПС"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Сопутствующее"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Средства_сигнализации_и_связи"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Станции_и_узлы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Станция"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Техническое"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Технологическое"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Тяговый_подвижной_состав"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Участок"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Фактор_пропускной_способности"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Класс_реализации"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Объект_внедрения"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Тип_ресурса"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Характер_воздействия"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Экземпляр_1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Активы"/>
+        <Class IRI="#Объекты_инфраструктуры"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Вагоны"/>
+        <Class IRI="#Нетяговый_подвижной_состав"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Групповые_объекты"/>
+        <Class IRI="#Объекты_инфраструктуры"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Локомотивы"/>
+        <Class IRI="#Тяговый_подвижной_состав"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Наличная"/>
+        <Class IRI="#Пропускная_способность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Нетяговый_подвижной_состав"/>
+        <Class IRI="#Подвижной_состав"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Объекты_СЦБ"/>
+        <Class IRI="#Активы"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Объекты_путевой_инфраструктуры"/>
+        <Class IRI="#Активы"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Объекты_тягового_электроснабжения"/>
+        <Class IRI="#Активы"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Перегон"/>
+        <Class IRI="#Раздельные_пункты"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Планируемая"/>
+        <Class IRI="#Пропускная_способность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Полигон"/>
+        <Class IRI="#Объект_воздействия"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Потребная"/>
+        <Class IRI="#Пропускная_способность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Путевая_инфраструктура_перегона"/>
+        <Class IRI="#Фактор_пропускной_способности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Раздельные_пункты"/>
+        <Class IRI="#Групповые_объекты"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Расчетная"/>
+        <Class IRI="#Пропускная_способность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Результирующая"/>
+        <Class IRI="#Пропускная_способность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Реконструктивное"/>
+        <Class IRI="#Мероприятие"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ресурсное"/>
+        <Class IRI="#Мероприятие"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ССПС"/>
+        <Class IRI="#Тяговый_подвижной_состав"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Сопутствующее"/>
+        <Class IRI="#Мероприятие"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Средства_сигнализации_и_связи"/>
+        <Class IRI="#Фактор_пропускной_способности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Станции_и_узлы"/>
+        <Class IRI="#Фактор_пропускной_способности"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Станция"/>
+        <Class IRI="#Объект_воздействия"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Техническое"/>
+        <Class IRI="#Мероприятие"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Технологическое"/>
+        <Class IRI="#Мероприятие"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Тяговый_подвижной_состав"/>
+        <Class IRI="#Подвижной_состав"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Участок"/>
+        <Class IRI="#Объект_воздействия"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Мероприятие"/>
+        <NamedIndividual IRI="#Экземпляр_1"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Тип_ресурса"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Объект_внедрения"/>
+        <Class IRI="#Мероприятие"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Тип_ресурса"/>
+        <Class IRI="#Ресурсное"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Объект_внедрения"/>
+        <Class IRI="#Групповые_объекты"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
